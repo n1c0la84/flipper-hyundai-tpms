@@ -1,0 +1,12 @@
+App(
+    appid="hyundai_tpms",
+    name="Hyundai TPMS",
+    apptype=FlipperAppType.EXTERNAL,
+    entry_point="hyundai_tpms_app",
+    requires=["gui", "notification", "storage"],
+    stack_size=6144,
+    fap_category="Sub-GHz",
+    fap_version="0.6",
+    fap_description="Live Hyundai VDO tyre pressures in PSI",
+    fap_author="Nicola",
+)

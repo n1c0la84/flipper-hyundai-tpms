@@ -1,0 +1,15 @@
+dist/
+.vscode/
+__pycache__/
+
+# Device data and private radio recordings
+*.cu8
+*.sub
+*.fap
+*.bin
+*.csv
+*.pcap
+*.pcapng
+session-*/
+flipper-logs/
+apps_data/
